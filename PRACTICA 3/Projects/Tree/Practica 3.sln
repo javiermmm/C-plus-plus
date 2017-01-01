@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tree", "Practica 3.vcxproj", "{A0C3F1A3-DC7D-45EA-8813-D8E9AD871B9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeWindowsForms", "..\TreeWindowsForms\TreeWindowsForms.vcxproj", "{4C316501-B7BF-436A-BAE9-4777B4C41A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C3F1A3-DC7D-45EA-8813-D8E9AD871B9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0C3F1A3-DC7D-45EA-8813-D8E9AD871B9E}.Debug|Win32.Build.0 = Debug|Win32
+		{A0C3F1A3-DC7D-45EA-8813-D8E9AD871B9E}.Release|Win32.ActiveCfg = Release|Win32
+		{A0C3F1A3-DC7D-45EA-8813-D8E9AD871B9E}.Release|Win32.Build.0 = Release|Win32
+		{4C316501-B7BF-436A-BAE9-4777B4C41A22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C316501-B7BF-436A-BAE9-4777B4C41A22}.Debug|Win32.Build.0 = Debug|Win32
+		{4C316501-B7BF-436A-BAE9-4777B4C41A22}.Release|Win32.ActiveCfg = Release|Win32
+		{4C316501-B7BF-436A-BAE9-4777B4C41A22}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
