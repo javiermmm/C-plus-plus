@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{013B4445-DB79-4422-B352-05480FA18F70}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MideMedallero</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\Lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\Algoritmo.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoClasificacionAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoClasificacionPrimero.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoClasificacionUltimo.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMedallero.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMedalleroDeporteAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMedalleroDeporteAleatorioOrdenado.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMedalleroOrdenado.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSobreClasificacion.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSobreMedallero.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSobreMedalleroDeporte.h" />
+    <ClInclude Include="..\..\Src\Atleta.h" />
+    <ClInclude Include="..\..\Src\Deporte.h" />
+    <ClInclude Include="..\..\Src\excepciones.h" />
+    <ClInclude Include="..\..\Src\GenerarAleatorios.h" />
+    <ClInclude Include="..\..\Src\Localizacion.h" />
+    <ClInclude Include="..\..\Src\Medallas.h" />
+    <ClInclude Include="..\..\Src\MedalleroAbstracto.h" />
+    <ClInclude Include="..\..\Src\MedalleroSecuencia.h" />
+    <ClInclude Include="..\..\Src\MedalleroTablaAbierta.h" />
+    <ClInclude Include="..\..\Src\MedalleroTablaCerrada.h" />
+    <ClInclude Include="..\..\Src\MideTiempos.h" />
+    <ClInclude Include="..\..\Src\Pais.h" />
+    <ClInclude Include="..\..\Src\Pareja.h" />
+    <ClInclude Include="..\..\Src\Prueba.h" />
+    <ClInclude Include="..\..\Src\Salida.h" />
+    <ClInclude Include="..\..\Src\SalidaGNUPlot.h" />
+    <ClInclude Include="..\..\Src\SalidaPantalla.h" />
+    <ClInclude Include="..\..\Src\Secuencia.h" />
+    <ClInclude Include="..\..\Src\TablaAbierta.h" />
+    <ClInclude Include="..\..\Src\TablaCerrada.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\GenerarAleatorios.cpp" />
+    <ClCompile Include="..\..\Src\Localizacion.cpp" />
+    <ClCompile Include="..\..\Src\main.cpp" />
+    <ClCompile Include="..\..\Src\Medallas.cpp" />
+    <ClCompile Include="..\..\Src\MedalleroAbstracto.cpp" />
+    <ClCompile Include="..\..\Src\MedalleroSecuencia.cpp" />
+    <ClCompile Include="..\..\Src\MedalleroTablaAbierta.cpp" />
+    <ClCompile Include="..\..\Src\MedalleroTablaCerrada.cpp" />
+    <ClCompile Include="..\..\Src\MideTiempos.cpp" />
+    <ClCompile Include="..\..\Src\SalidaGNUPlot.cpp" />
+    <ClCompile Include="..\..\Src\SalidaPantalla.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
