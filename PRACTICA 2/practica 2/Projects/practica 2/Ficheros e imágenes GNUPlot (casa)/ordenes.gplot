@@ -1,0 +1,27 @@
+# Script de Gnuplot que sirve de guía para
+# generar las gráficas de la práctica. NO genera
+# todas las gráficas pedidas, sino únicamente
+# las del algoritmo burbuja e inserción.
+
+set terminal png
+
+set output "burbuja.png"
+plot "burbujaAleatorio.txt" with lines title "Aleatorio", "burbujaCreciente.txt" with lines title "Creciente", "burbujaDecreciente.txt" with lines title "Decreciente", 0 with lines notitle
+
+set output "insercion.png"
+plot "insercionAleatorio.txt" with lines title "Aleatorio", "insercionCreciente.txt" with lines title "Creciente", "insercionDecreciente.txt" with lines title "Decreciente", 0 with lines notitle
+
+set output "seleccion.png"
+plot "seleccionAleatorio.txt" with lines title "Aleatorio", "seleccionCreciente.txt" with lines title "Creciente", "seleccionDecreciente.txt" with lines title "Decreciente", 0 with lines notitle
+
+set output "quicksort.png"
+plot "quicksortAleatorio.txt" with lines title "Aleatorio", "quicksortCreciente.txt" with lines title "Creciente", "quicksortDecreciente.txt" with lines title "Decreciente", 0 with lines notitle
+
+set output "seleccion.png"
+plot "mergesortAleatorio.txt" with lines title "Aleatorio", "mergesortCreciente.txt" with lines title "Creciente", "mergesortDecreciente.txt" with lines title "Decreciente", 0 with lines notitle
+
+set output "aleatorios.png"
+plot "seleccionAleatorio.txt" with lines title "Seleccion", "insercionAleatorio.txt" with lines title "Inserción", "burbujaAleatorio.txt" with lines title "Burbuja", "quicksortAleatorio.txt" with lines title "quicksort",  "mergesortAleatorio.txt" with lines title "mergesort", 0 with lines notitle
+
+set output "quicksortAleatorio.png"
+plot "quicksortAleatorioDebug.txt" with lines title "Debug", "quicksortAleatorioRelease.txt" with lines title "Release", 0 with lines notitle

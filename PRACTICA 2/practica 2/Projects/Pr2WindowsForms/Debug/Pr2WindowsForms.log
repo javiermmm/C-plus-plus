@@ -1,0 +1,53 @@
+﻿Compilación iniciada a las 13/12/2010 10:34:20.
+     1>Proyecto "C:\hlocal\practica 2\Projects\Pr2WindowsForms\Pr2WindowsForms.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\Pr2WindowsForms.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       ClCompile:
+         C:\software\programacion\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Src /AI"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Archivos de programa\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Form1.cpp /clr:nostdlib 
+         Form1.cpp
+     1>Form1.cpp(117): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+         Todas las salidas están actualizadas.
+       CoreResGen:
+         Todas las salidas están actualizadas.
+       ResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\software\programacion\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\hlocal\practica 2\Projects\practica 2\Debug\Pr2WindowsForms.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Pr2WindowsForms.Form1.resources /MANIFEST /ManifestFile:"Debug\Pr2WindowsForms.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\hlocal\practica 2\Projects\practica 2\Debug\Pr2WindowsForms.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AlgoritmoBurbujaAleatorio.obj
+         Debug\AlgoritmoBurbujaCreciente.obj
+         Debug\AlgoritmoBurbujaDecreciente.obj
+         Debug\AlgoritmoInsercionAleatorio.obj
+         Debug\AlgoritmoInsercionCreciente.obj
+         Debug\AlgoritmoInsercionDecreciente.obj
+         Debug\AlgoritmoMergesortAleatorio.obj
+         Debug\AlgoritmoMergesortCreciente.obj
+         Debug\AlgoritmoMergesortDecreciente.obj
+         Debug\AlgoritmoQuicksortAleatorio.obj
+         Debug\AlgoritmoQuicksortCreciente.obj
+         Debug\AlgoritmoQuicksortDecreciente.obj
+         Debug\AlgoritmoSeleccionAleatorio.obj
+         Debug\AlgoritmoSeleccionCreciente.obj
+         Debug\AlgoritmoSeleccionDecreciente.obj
+         Debug\AlgoritmoSobreVectores.obj
+         Debug\MetodosGeneracion.obj
+         Debug\MetodosOrdenacion.obj
+         Debug\MideTiempos.obj
+         Debug\SalidaGNUPlot.obj
+         Debug\AssemblyInfo.obj
+         Debug\Form1.obj
+         Debug\Pr2WindowsForms.obj
+         Debug\SalidaWindowsForms.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Pr2WindowsForms.vcxproj -> C:\hlocal\practica 2\Projects\practica 2\Debug\Pr2WindowsForms.exe
+       Manifest:
+         C:\Archivos de programa\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\hlocal\practica 2\Projects\practica 2\Debug\Pr2WindowsForms.exe;#1" /manifest Debug\Pr2WindowsForms.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Pr2WindowsForms.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Pr2WindowsForms.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\hlocal\practica 2\Projects\Pr2WindowsForms\Pr2WindowsForms.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04

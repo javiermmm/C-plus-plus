@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{30A2732B-72FC-4B2F-A724-E6153FC0AC61}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Pr2WindowsForms</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\..\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\..\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\AlgoritmoBurbujaAleatorio.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoBurbujaCreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoBurbujaDecreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoInsercionAleatorio.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoInsercionCreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoInsercionDecreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoMergesortAleatorio.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoMergesortCreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoMergesortDecreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoQuicksortAleatorio.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoQuicksortCreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoQuicksortDecreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoSeleccionAleatorio.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoSeleccionCreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoSeleccionDecreciente.cpp" />
+    <ClCompile Include="..\..\Src\AlgoritmoSobreVectores.cpp" />
+    <ClCompile Include="..\..\Src\MetodosGeneracion.cpp" />
+    <ClCompile Include="..\..\Src\MetodosOrdenacion.cpp" />
+    <ClCompile Include="..\..\Src\MideTiempos.cpp" />
+    <ClCompile Include="..\..\Src\SalidaGNUPlot.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Form1.cpp" />
+    <ClCompile Include="Pr2WindowsForms.cpp" />
+    <ClCompile Include="SalidaWindowsForms.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\AlgoritmoBurbujaAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoBurbujaCreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoBurbujaDecreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoInsercionAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoInsercionCreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoInsercionDecreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMergesortAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMergesortCreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoMergesortDecreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoQuicksortAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoQuicksortCreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoQuicksortDecreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSeleccionAleatorio.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSeleccionCreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSeleccionDecreciente.h" />
+    <ClInclude Include="..\..\Src\AlgoritmoSobreVectores.h" />
+    <ClInclude Include="..\..\Src\MetodosGeneracion.h" />
+    <ClInclude Include="..\..\Src\MetodosOrdenacion.h" />
+    <ClInclude Include="..\..\Src\MideTiempos.h" />
+    <ClInclude Include="..\..\Src\SalidaGNUPlot.h" />
+    <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SalidaWindowsForms.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

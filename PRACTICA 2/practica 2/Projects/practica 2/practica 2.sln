@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CronoOrdenaciones", "practica 2.vcxproj", "{18548FE4-FE3C-447A-91D3-B10C4B7D4DCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pr2WindowsForms", "..\Pr2WindowsForms\Pr2WindowsForms.vcxproj", "{30A2732B-72FC-4B2F-A724-E6153FC0AC61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18548FE4-FE3C-447A-91D3-B10C4B7D4DCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18548FE4-FE3C-447A-91D3-B10C4B7D4DCC}.Debug|Win32.Build.0 = Debug|Win32
+		{18548FE4-FE3C-447A-91D3-B10C4B7D4DCC}.Release|Win32.ActiveCfg = Release|Win32
+		{18548FE4-FE3C-447A-91D3-B10C4B7D4DCC}.Release|Win32.Build.0 = Release|Win32
+		{30A2732B-72FC-4B2F-A724-E6153FC0AC61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30A2732B-72FC-4B2F-A724-E6153FC0AC61}.Debug|Win32.Build.0 = Debug|Win32
+		{30A2732B-72FC-4B2F-A724-E6153FC0AC61}.Release|Win32.ActiveCfg = Release|Win32
+		{30A2732B-72FC-4B2F-A724-E6153FC0AC61}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
