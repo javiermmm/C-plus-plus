@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practica 1", "practica 1.vcxproj", "{EAF3783B-F338-4904-97E7-CD62925683E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "practica 1OO", "..\practica 1OO\practica 1OO.vcxproj", "{3C8DCD7F-4C7C-48E6-A462-E620C4F14C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF3783B-F338-4904-97E7-CD62925683E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAF3783B-F338-4904-97E7-CD62925683E7}.Debug|Win32.Build.0 = Debug|Win32
+		{EAF3783B-F338-4904-97E7-CD62925683E7}.Release|Win32.ActiveCfg = Release|Win32
+		{EAF3783B-F338-4904-97E7-CD62925683E7}.Release|Win32.Build.0 = Release|Win32
+		{3C8DCD7F-4C7C-48E6-A462-E620C4F14C04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C8DCD7F-4C7C-48E6-A462-E620C4F14C04}.Debug|Win32.Build.0 = Debug|Win32
+		{3C8DCD7F-4C7C-48E6-A462-E620C4F14C04}.Release|Win32.ActiveCfg = Release|Win32
+		{3C8DCD7F-4C7C-48E6-A462-E620C4F14C04}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
